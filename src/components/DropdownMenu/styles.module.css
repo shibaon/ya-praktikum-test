@@ -1,0 +1,24 @@
+.trigger {
+    display: inline-block;
+    position: relative;
+    z-index: 1000;
+}
+.defaultTriggerButton {
+    background: #e0e0e0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    transition: background-color .3s;
+    cursor: pointer;
+}
+.defaultTriggerButton:hover {
+    background: #D3D3D3;
+}
+.popup {
+    position: absolute;
+    display: none;
+}

@@ -1,0 +1,26 @@
+.popup {
+    background: #fff;
+    padding: 0;
+    border-radius: 6px;
+    list-style: none;
+    margin: 0;
+    max-width: 260px;
+}
+.popupItem {
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.popupItem:hover {
+    background: #fcfcfc;
+}
+.popupItem span {
+    margin-right: 4px;
+    flex-grow: 1;
+}
+.popupItem svg {
+    width: 18px;
+    height: 18px;
+}

@@ -1,0 +1,24 @@
+.firstScreen {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.secondScreen {
+    height: 100%;
+    width: 200%;
+}
+.menuDemoLocation {
+    padding: 20px;
+    width: 50%;
+    height: 50%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+.menuRight {
+    justify-content: flex-end;
+}
+.menuBottom {
+    align-items: flex-end;
+}
